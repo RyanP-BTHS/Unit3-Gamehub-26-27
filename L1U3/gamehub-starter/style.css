@@ -72,13 +72,38 @@ img {
 /* STEP 5 · .hero
    At least 70vh tall, a background colour, white text.
    Text centered, and the content centered up and down. */
+.hero{
+   min-height: 70wh;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   background-color: #1e3a8a;
+   color: white;
 
+}
 
 /* STEP 6 · .btn and .hero-buttons
    .btn: inline-block, padding 12px 28px, rounded corners, no underline, bold.
    Give .btn-primary and .btn-secondary different looks.
    .hero-buttons: the two buttons side by side, centered, 16px apart. */
+.btn{
+   display: inline-block;
+   padding: 12px 28px;
+   border: 2px solid transparent;
+   border-radius: 8px;
+   text-decoration: none;
+   font-weight: 700;
+}
 
+.btn-primary{
+   background-color: #f59e0b;
+   color: #111827;
+}
+.btn-secondary{
+   color: white;
+   border-color: white;
+
+}
 
 /* Done early? Try other colours from the reference sheet (Colors tab).
    On day 2 we turn your colours into variables. */
